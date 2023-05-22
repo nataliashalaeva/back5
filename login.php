@@ -50,10 +50,10 @@ else {
             $check->bindParam(1,$login);
             $check->execute();
             $username=$check->fetchALL();
-      //     echo '<pre>';
-      //      print_r($username);
-    //        var_dump($username);
-     //       echo '</pre>';
+          echo '<pre>';
+          print_r($username);
+           var_dump($username);
+           echo '</pre>';
             if(password_verify($pswrd,$username[0][2])){
                 $uid=$username[0]['id'];
                 $error=FALSE;
