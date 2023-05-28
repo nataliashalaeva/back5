@@ -24,14 +24,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
         ?>
 <style>
   .log-in{
-    font-family: "Montserrat", sans-serif;
     max-width: 960px;
     text-align: center;
     margin: 0 auto;
     padding: 40px;
     width: 250px;
-    background-color: rgb(253, 197, 123);
-    border: 2px solid black;
+    line-height:1.5;
   }
 </style>
 <div class="log-in">
