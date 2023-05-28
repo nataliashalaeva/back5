@@ -26,10 +26,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
   .log-in{
     max-width: 960px;
     text-align: center;
-    margin: 0 auto;
+    margin: 250 auto;
     padding: 40px;
     width: 250px;
     line-height:1.5;
+    border: 2px solid black;
   }
 </style>
 <div class="log-in">
